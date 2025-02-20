@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -15,7 +16,7 @@ nav{
 main{
     grid-area: principal;
     display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 10px;
     column-gap: 40px;
 }
@@ -31,20 +32,22 @@ body{
     'lado principal'
     'pie pie';
     grid-template-columns: 1fr 3fr;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+}
+   
 
     .header{
         background-image: url(../img/bg.jpg);
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
         display: flex;
-        align-items: end;
-        height: 600px;
-        justify-content: end;
+        align-items: center;
+        height: 300px;
+        justify-content: center;
     }
 
     .nombre{
-        color: white;
-        text-shadow: black 1px 1px;
+        color: aquamarine;
+        text-shadow: black 2px 2px;
         font-size: 3em;
     }
 
@@ -56,14 +59,14 @@ body{
 
     .titulo{
         font-weight: bolder;
-        font-size: 3em;
+        font-size: 1.5em;
         margin: 10px;
     }
 
     .categorias{
         color: black;
         text-decoration: none;
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .cantidad{
@@ -84,28 +87,29 @@ body{
     }
 
     .card img{
-        width: 600px;
-        height: 800px;
+        width: 300px;
+        height: 400px;
     }
 
     .producto{
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .precio{
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .extra{
         font-style: italic;
+        font-family: 1em;
     }
 
     .boton{
         background-color: rgb(86, 86, 230);
         color: white;
-        width: 200px;
+        width: 100px;
         text-align: center;
-        font-size: 2em;
+        font-size: 1em;
         text-decoration: none;
     }
 
@@ -115,10 +119,10 @@ body{
 
     .footer{
         background-color: rgb(255, 110, 110);
-        height: 100px;
+        height: 50px;
         text-align: center;
         color: white;
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .footer p{
