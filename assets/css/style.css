@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+.box{
+    border: 2px solid red;
+}
+
+header{
+    grid-area: cabecera;
+}
+
+aside{
+    grid-area: lado;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    grid-area: principal;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+footer{
+    grid-area: pie;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    'cabecera cabecera'
+    'lado principal'
+    'pie pie';
+    grid-template-columns: 1fr 2fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
