@@ -10,7 +10,7 @@ header{
     grid-area: cabecera;
 }
 
-aside{
+nav{
     grid-area: lado;
     display: flex;
     flex-direction: column;
@@ -34,3 +34,38 @@ body{
     'pie pie';
     grid-template-columns: 1fr 2fr;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+    .header{
+        background-image: url(../img/bg.jpg);
+        background-size: contain;
+        display: flex;
+        align-items: end;
+        height: 400px;
+        justify-content: end;
+    }
+
+    .nombre{
+        color: white;
+        text-shadow: black 1px 1px;
+    }
+
+    .navbar{
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(202, 248, 248);
+    }
+
+    .titulo{
+        font-weight: bolder;
+    }
+
+    .categorias{
+        color: black;
+        text-decoration: none;
+    }
+
+    .cantidad{
+        color: gray;
+        font-style: italic;
+    }
+
